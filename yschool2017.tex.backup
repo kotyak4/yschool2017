@@ -323,7 +323,7 @@ k_4 = k_2
 
 }
 
-\frame{\frametitle{Homogeneous fluid $N\rightarrow$}
+\frame{\frametitle{Homogeneous fluid $N\rightarrow0$}
 
 \textbf{Velocity components}
 
@@ -410,6 +410,13 @@ A_1e_1\left(k_{\eta}^2\sin\varphi + k_1\beta_1\right)dk_{\xi}dk_{\eta}
  & & & \\
  \hline
 \end{tabular}
+}
+
+\subsection{Comparison of the laboratory experiment (point) and calculations (lines) of the vertical displacement}
+\frame{\frametitle{Comparison of the laboratory experiment (point) and calculations (lines) of the vertical displacement.}
+\begin{figure}
+   \includegraphics[width=0.95\linewidth]{compare.jpg}
+\end{figure}
 }
 
 \section{Conclusions}
