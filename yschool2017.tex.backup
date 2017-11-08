@@ -268,25 +268,8 @@ k_{2} = \frac{{1 + i}}{{\delta _{\varphi} } }
 }
 
 \subsection{Homogeneous fluid}
-
 \frame{\frametitle{Homogeneous fluid $N->0$}
 
-Solutions of the dispersion equation
-
-\[
-k_{1} = k_{\bot}  
-\quad
-k_{2} = \frac{{1 + i}}{{\delta _{\varphi} } }
-\quad
-k_3 = \frac{1+i}{\delta_{\kappa}}
-\quad
-k_4 = k_2
-\]
-
-
-}
-
-\frame{\frametitle{Homogeneous fluid $N->0$}
 
 \[
 \begin{array}{l}
@@ -319,7 +302,18 @@ A_1e_1\left(k_{\eta}^2\sin\varphi + k_1\beta_1\right)dk_{\xi}dk_{\eta}
  \end{array}
 \]
 
+
+
+
+\[
+k_{1} = k_{\xi}  
+\quad
+k_{2} = \frac{{1 + i}}{{\delta _{\varphi} } }
+\]
+
 }
+
+
 
 
 \section{Comparisons}
