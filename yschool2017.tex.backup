@@ -185,10 +185,37 @@ _{\nu \kappa} }  \right)}}{{\varepsilon} }} ,
 
 \[
 v_{\xi}  \approx - \frac{{1 - i}}{{2}}\delta _{\varphi}  G_{1} + \frac{{i\delta 
-_{N}^{2}} }{{\sqrt {\left| {\mu}  \right|}} }\tan^{2}\varphi \,\,G_{2} - G_{3} 
+_{N}^{2}} }{{\sqrt {\left| {\mu}  \right|}} }\tan^{2}\varphi \,\,G_{2} - G_{3} ,
 \]
 
+\[
+ Q_n = u_0 \int\limits_{ - \infty} ^{ + \infty}
+ \frac{g_n}{k^2_{\eta}\cos\varphi + k_{\xi}\beta} \, dk_{\xi}  dk_{\eta} ,
+ \quad
+ \beta = k_{\xi}\cos\varphi - k_1\sin\varphi,
+\]
 
+\[
+ g_0 = \gamma k_{\xi} k_{\eta} e_1,
+ \quad
+ g_1 = k_{\xi}e_1\left(k^2_{\eta}\sin\varphi-k_1\beta\right),
+\]
+
+\[
+ g_2 = k_{\eta}Q\exp\left(\frac{i-1}{\delta_{\nu}\xi}\right)\left[k^2_{\eta}\cos\varphi + k_{\xi}\left(k_1-\gamma\right)\right] ,
+ \quad
+ Q = e^{i\left(k_{\xi}\xi+k_{\eta}\eta\right)},
+\]
+
+\[
+ g_3 = k_{\eta}Q\exp\left(-\frac{i+1}{\delta_{\nu}\xi}\right)\left(k^2_{\eta}\sin\varphi + k_{\xi}\beta\sin\varphi\right),
+ \quad
+ \gamma = k_{\xi}\sin\varphi + k_1\cos\varphi
+\]
+
+}
+
+\frame{\frametitle{The viscous stratified fluid taking into account effects of diffusion}
 \[
 v_{\eta}  \approx \left( {1 - i} \right)\delta _{\varphi}  G_{0} + \frac{{1 - 
 i}}{{2}}\delta _{\nu}  \tan\varphi \,G_{2} - \left( {1 - i} \right)\delta _{\varphi 
@@ -201,8 +228,8 @@ v_{\zeta}  \approx \frac{{i - 1}}{{2}}\delta _{\varphi}  \int\limits_{ - \infty
 \frac{{i\delta _{N}^{2}} }{{2\sqrt {\left| {\mu}  \right|}} }\tan\varphi \,G_{2} 
 - \frac{{1 + i}}{{\delta _{\varphi}  \sin\varphi} }G_{3} 
 \]
-
 }
+
 
 
 \section{limiting cases}
@@ -268,8 +295,37 @@ k_{2} = \frac{{1 + i}}{{\delta _{\varphi} } }
 }
 
 \subsection{Homogeneous fluid}
-\frame{\frametitle{Homogeneous fluid $N->0$}
 
+\frame{\frametitle{Homogeneous fluid $N\rightarrow0$}
+
+\textbf{Solutions of the dispersion equation}
+
+\[
+k_{1} = k_{\bot}  
+\quad
+k_{2} = \frac{{1 + i}}{{\delta _{\varphi} } }
+\quad
+k_3 = \frac{1+i}{\delta_{\kappa}}
+\quad
+k_4 = k_2
+\]
+
+\[
+ M_j = a_j\exp\left(-\sigma_{\kappa}\xi+i\frac{\zeta}{\sqrt{2}\delta_{\kappa}}\right)\sin^2\varphi
+ \int\limits_{ - \infty} ^{ + \infty}A_3Qb_jdk_{\xi}dk_{\eta}
+\]
+
+\[
+ \sigma_{\kappa} = \frac{\delta_N}{\delta_{\nu}\delta_{\kappa}}
+\]
+
+
+
+}
+
+\frame{\frametitle{Homogeneous fluid $N\rightarrow$}
+
+\textbf{Velocity components}
 
 \[
 \begin{array}{l}
@@ -302,19 +358,34 @@ A_1e_1\left(k_{\eta}^2\sin\varphi + k_1\beta_1\right)dk_{\xi}dk_{\eta}
  \end{array}
 \]
 
-
-
-
-\[
-k_{1} = k_{\xi}  
-\quad
-k_{2} = \frac{{1 + i}}{{\delta _{\varphi} } }
-\]
-
 }
 
 
+\frame{\frametitle{Homogeneous fluid. Horizontal plane $N\rightarrow0$, $\varphi = 0$}
+\[
+ v_{\xi} = \int\limits_{ - \infty} ^{ + \infty}
+ \left(k^2_{\eta}L_3dk_{\xi}dk_{\eta}+k^2_{\eta}L_1\right)dk_{\xi}dk_{\eta}
+\]
 
+\[
+ v_{\eta} = \int\limits_{ - \infty} ^{ + \infty} 
+ \left(L_3 + k_{\xi}k_{\eta}L_1\right)dk_{\xi}dk_{\eta}
+\]
+
+\[
+ v_{\zeta} =  \int\limits_{ - \infty} ^{ + \infty}
+ k_{\eta}k^2_{\bot}L_2dk_{\xi}dk_{\eta}
+\]
+
+\[
+ L_m = u_0Q\frac{k^{2-m}_1e^{ik_1\zeta}+k^{2-m}_1e^{ik_2\zeta}}{(k^2_{\eta}-k^2_{\xi})(k_2-k_1)},
+ \quad
+ L_3 = \frac{u_0Q}{k^2_{\eta}-k^2_{\xi}}\exp\left(-\frac{1-i}{\delta_{\nu}}\zeta\right)
+\]
+
+
+
+}
 
 \section{Comparisons}
 \subsection{Displacement on the axis}
